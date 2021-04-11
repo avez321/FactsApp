@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/factsListFragment">
+
+    <fragment
+        android:id="@+id/factsListFragment"
+        android:name="com.example.factsapp.ui.facts.FactsFragment"
+        android:label="FactsFragment"
+        tools:layout="@layout/fragment_facts_list" >
+
+    </fragment>
+</navigation>

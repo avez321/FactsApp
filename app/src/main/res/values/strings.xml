@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FactsApp</string>
+    <string name="internet_not_avaiable_to_pulldata">Internet not avaiable to pull data from server</string>
+</resources>
