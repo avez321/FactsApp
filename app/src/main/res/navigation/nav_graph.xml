@@ -3,13 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
-    app:startDestination="@+id/factsListFragment">
+    app:startDestination="@+id/currentLoacation">
+
 
     <fragment
-        android:id="@+id/factsListFragment"
-        android:name="com.example.factsapp.ui.facts.FactsFragment"
-        android:label="FactsFragment"
-        tools:layout="@layout/fragment_facts_list" >
+        android:id="@+id/currentLoacation"
+        android:name="com.example.weatherapp.ui.currentlocation.CurrentWeatherFragament"
+        android:label="CurrentLocationFragament"
+        tools:layout="@layout/fragment_current_location_fragament" >
 
     </fragment>
 </navigation>
